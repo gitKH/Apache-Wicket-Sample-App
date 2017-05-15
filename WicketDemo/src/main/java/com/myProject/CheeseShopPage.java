@@ -4,6 +4,9 @@ import java.util.List;
 
 import org.apache.wicket.markup.html.WebPage;
 
+import com.myProject.Model.Cart;
+import com.myProject.Model.Cheese;
+
 public abstract class CheeseShopPage extends WebPage{
 	private static final long serialVersionUID = 6824478107671727213L;
 	

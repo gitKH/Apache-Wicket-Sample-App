@@ -3,6 +3,8 @@ package com.myProject;
 import org.apache.wicket.protocol.http.WebSession;
 import org.apache.wicket.request.Request;
 
+import com.myProject.Model.Cart;
+
 public class CheeseShopSession extends WebSession{
 	
 	private static final long serialVersionUID = 7470685823136012896L;

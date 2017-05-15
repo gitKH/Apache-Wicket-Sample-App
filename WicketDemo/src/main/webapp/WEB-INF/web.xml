@@ -17,16 +17,16 @@
 		"deployment". If no configuration is found, "development" is the default. -->
 
 	<filter>
-		<filter-name>wicket.WicketDemo</filter-name>
+		<filter-name>CheeseShopApp</filter-name>
 		<filter-class>org.apache.wicket.protocol.http.WicketFilter</filter-class>
 		<init-param>
 			<param-name>applicationClassName</param-name>
-			<param-value></param-value>
+			<param-value>com.myProject.CheeseShopApp</param-value>
 		</init-param>
 	</filter>
 
 	<filter-mapping>
-		<filter-name>wicket.WicketDemo</filter-name>
+		<filter-name>CheeseShopApp</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 </web-app>
